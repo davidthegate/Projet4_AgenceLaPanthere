@@ -1104,3 +1104,20 @@ h4 {
     color: #d79864 !important;
     text-decoration: underline !important;
 }
+
+.title1 {
+    font-weight: bold;
+}
+
+.text0 {
+    font-size: 15px;
+}
+
+.text1 {
+    color: black;
+    font-size: 19px;
+}
+
+.infos-text {
+    font-size: 15px;
+}
