@@ -53,7 +53,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 35px 35px;
 }
 
 .bg-center,
@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -651,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -707,6 +706,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    font-weight: bold;
 }
 
 h3 {
@@ -728,15 +728,12 @@ h1 {
 
 h4 {
     color: #333333!important;
+    font-size: 20px;
 }
 
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
-}
-
-.white {
-    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -753,7 +750,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,17 +768,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #edc39c;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #edc39c!important;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #edc39c;
+    color: #302f2e!important;
 }
+
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,68 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.background-banner {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px 20px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.service-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.service-title h2 {
+    width: 70%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.citation-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.citation-subtitle {
+    font-size: 15px;
+}
+
+.portfolio-title {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-title h3 {
+    font-size: 22px;
+    text-transform: none;
+    width: 50%;
+}
+
+.text-title {
+    font-size: 22px;
+}
+
+.text-subtitle {
+    font-size: 17px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #d79864 !important;
+    text-decoration: underline !important;
 }
