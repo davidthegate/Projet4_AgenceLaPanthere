@@ -1659,7 +1659,7 @@ mark {
 
 .text-center {
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     color: black;
 }
 
@@ -3227,7 +3227,8 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .checkbox,
