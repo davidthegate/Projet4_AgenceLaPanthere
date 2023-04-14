@@ -1622,7 +1622,7 @@ h6 {
 }
 
 p {
-    margin: 0 0 15px
+    margin: 0 0 10px
 }
 
 .lead {
@@ -1659,8 +1659,6 @@ mark {
 
 .text-center {
     text-align: center;
-    font-size: 18px;
-    color: black;
 }
 
 .text-justify {
@@ -3228,7 +3226,6 @@ input[type=search] {
 
 .form-group {
     margin-bottom: 15px;
-    font-size: 18px;
 }
 
 .checkbox,
@@ -7685,6 +7682,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
+    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
@@ -7798,7 +7796,6 @@ button.close {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 110px;
 }
 
 .pull-right {

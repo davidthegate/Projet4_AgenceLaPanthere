@@ -1121,3 +1121,24 @@ h4 {
 .infos-text {
     font-size: 15px;
 }
+
+p {
+    margin: 0 0 15px
+}
+
+.text-center {
+    font-size: 17px;
+    color: black;
+}
+
+.fa {
+    color: black;
+}
+
+.center-block {
+    width: 110px;
+}
+
+.form-group {
+    font-size: 17px;
+}
