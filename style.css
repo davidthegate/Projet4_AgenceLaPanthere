@@ -324,7 +324,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -1107,28 +1107,28 @@ h4 {
 
 .title1 {
     font-weight: bold;
+    font-size: 35px;
 }
 
 .text0 {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .text1 {
     color: black;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .infos-text {
     font-size: 15px;
 }
 
-p {
-    margin: 0 0 15px
+.black {
+    color: black;
 }
 
-.text-center {
-    font-size: 17px;
-    color: black;
+p {
+    margin: 0 0 15px
 }
 
 .fa {
@@ -1140,5 +1140,9 @@ p {
 }
 
 .form-group {
+    font-size: 17px;
+}
+
+.ills {
     font-size: 17px;
 }
