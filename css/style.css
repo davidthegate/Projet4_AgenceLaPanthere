@@ -515,7 +515,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 5;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -848,13 +848,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,10 +872,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +881,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        
     }
 }
 
@@ -962,7 +958,6 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -1032,6 +1027,18 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media (max-width:900px) {
+    .navbar-brand img {
+        max-height: 50px;
+    }
+}
+
+@media (max-width:379px) {
+    .navbar-brand img {
+        max-height: 35px;
     }
 }
 
@@ -1145,4 +1152,10 @@ p {
 
 .ills {
     font-size: 17px;
+}
+
+.jigsaw {
+    border:0;
+    width:88px;
+    height:31px
 }
